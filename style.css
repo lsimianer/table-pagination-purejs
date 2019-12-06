@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
 body{
     background-color: transparent;
 }
@@ -9,7 +14,7 @@ body{
     width: 55%;
     text-align: center;
     text-decoration: inherit;
-
+    padding-bottom: 2.25%;
 }
 ul {
     list-style-position: inside;
@@ -28,23 +33,11 @@ td {
 
 }
 
-#testerTable{
-
+#controlPanel{
+margin-top: 50px;
 }
 
 /*tester build change*/
-
-
-* {
-    margin: 0;
-    padding: 0;
-    text-align:center;
-}
-
-body {
-    background-color: #fafafa;
-}
-
 table {
     color: #333;
     font-size: .9em;
@@ -52,20 +45,24 @@ table {
     line-height: 40px;
     border-collapse: separate;
     border-spacing: 0;
-    border: 2px solid #ed1c40;
+    border: 2px solid #6f98d1;
     width: 500px;
-    margin: 50px auto;
+    margin: 10px auto;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.16);
     border-radius: 2px;
 }
 
 th {
-    background: #ed1c40;
+    background: #6f98d1;
     color: #fff;
     border: none;
+    width: 166.7px;
 }
 
-tr:hover:not(th) {background-color: rgba(237,28,64,.1);}
+tr:hover:not(th) {
+    background-color: #a8c1e3;
+    font-size: 1.15rem;
+}
 
 
 input[type="button"] {
@@ -82,7 +79,7 @@ input[type="button"]:not(.active) {
 }
 
 .active {
-    background-color: #ff4d4d;
+    background-color: #6f98d1;
     color :#fff;
 }
 

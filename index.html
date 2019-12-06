@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js'></script>-->
-
+  <script src="https://kit.fontawesome.com/f133c5654c.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -15,7 +15,11 @@
 
 
 <div id="descriptionDiv">
-  <h1> Hello world! This is Luke's pagination study for R3.</h1>
+  <h1> Hello world!
+    <br>
+    This is Luke's pagination study for R3.
+  </h1>
+  <br>
   <h3>Acceptance criteria</h3>
   <ul>
     <li>paginates gracefully between pages of 5  &lt;tr&gt; data &lt;tr/&gt;</li>
@@ -26,7 +30,12 @@
 </div>
 
 
+
 <table id="testerTable">
+<div id="controlPanel">
+  <button><i id='left' class="fas fa-arrow-circle-left"></i></button>
+  <button><i id='right' class="fas fa-arrow-circle-right"></i></button>
+</div>
   <thead>
     <th>Name</th>
     <th>Email</th>
